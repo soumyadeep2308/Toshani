@@ -1,0 +1,945 @@
+.bgCircle {
+    background-color: #F7F1FF;
+    width: 540px;
+    height: 540px;
+    position: absolute;
+    border-radius: 100%;
+    z-index: -1;
+    left: -240px;
+    top: 1000px;
+}
+
+.bgCircle1 {
+    background-color: #e8d8fe;
+    width: 560px;
+    height: 560px;
+    position: absolute;
+    border-radius: 100%;
+    z-index: -2;
+    left: -240px;
+    top: 990px;
+}
+
+.bgCircle2 {
+    background-color: #F7F1FF;
+    width: 540px;
+    height: 540px;
+    position: absolute;
+    border-radius: 100%;
+    z-index: -1;
+    right: -240px;
+    top: 1200px;
+}
+
+.bgCircle3 {
+    background-color: #e8d8fe;
+    width: 560px;
+    height: 560px;
+    position: absolute;
+    border-radius: 100%;
+    z-index: -2;
+    right: -240px;
+    top: 1190px;
+}
+
+
+.container {
+    margin: 0 8%;
+}
+
+.coverPhoto img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+}
+
+/* ........CoverPhoto Responsive CSS........ */
+
+@media only screen and (max-width: 660px) {
+    .coverPhoto img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .coverPhoto img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .coverPhoto img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .coverPhoto img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .coverPhoto img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .coverPhoto img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+    }
+}
+
+
+
+.slideshow-1200 {
+    display: none;
+}
+
+.slideshow-910 {
+    display: none;
+}
+
+.slideshow-container {
+    margin: 20px 8%;
+}
+
+.mySlides {
+    display: none;
+}
+
+.slideImages {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mySlides .slideImages img {
+    width: 250px;
+    height: 320px;
+    object-fit: cover;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .slideshow-1200 {
+        display: block;
+    }
+
+    .slideshow-1440 {
+        display: none;
+    }
+
+    .slideshow-910 {
+        display: none;
+    }
+
+    .slideshow-container {
+        margin: 20px 8%;
+    }
+
+    .mySlides {
+        display: none;
+    }
+
+    .slideImages {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mySlides .slideImages img {
+        width: 250px;
+        height: 320px;
+        object-fit: cover;
+    }
+
+    /* Fading animation */
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+}
+
+@media only screen and (max-width: 910px) {
+
+    .slideshow-910 {
+        display: block;
+    }
+
+    .slideshow-1200 {
+        display: none;
+    }
+
+    .slideshow-1440 {
+        display: none;
+    }
+
+    .slideshow-container {
+        margin: 20px 8%;
+    }
+
+    .mySlides {
+        display: none;
+    }
+
+    .slideImages {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mySlides .slideImages img {
+        width: 280px;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    /* Fading animation */
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+}
+
+@media only screen and (max-width: 660px) {
+    .mySlides .slideImages img {
+        width: 260px;
+        height: 350px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .mySlides .slideImages img {
+        width: 200px;
+        height: 320px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 474px) {
+    .mySlides .slideImages img {
+        width: 180px;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .mySlides .slideImages img {
+        width: 160px;
+        height: 260px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .mySlides .slideImages img {
+        width: 140px;
+        height: 240px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .mySlides .slideImages img {
+        width: 120px;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+
+/* About Section CSS */
+
+.About .container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.About .container .aboutLeft {
+    margin: 20px 0;
+}
+
+.About .container .aboutLeft h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.About .container .aboutLeft p {
+    width: 90%;
+    font-size: 22px;
+    color: rgb(61, 61, 61);
+    margin-bottom: 25px;
+}
+
+.About .container .aboutLeft a {
+    text-decoration: none;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #000;
+}
+
+.About .container .aboutLeft a:hover {
+    background-color: #333333;
+    color: #fff;
+    transition: 0.2s ease;
+}
+
+.About .container .aboutRight img {
+    width: 590px;
+    height: 394px;
+}
+
+/* .....................About Section Responsive CSS.....................*/
+
+.About-SmallScreens {
+    display: none;
+}
+
+@media only screen and (max-width: 1424px) {
+
+    .About {
+        display: none;
+    }
+
+    .About-SmallScreens {
+        display: block;
+    }
+
+    .About-SmallScreens .container {
+        margin-top: 150px;
+    }
+
+    .About-SmallScreens .container .aboutLeft {
+        text-align: center
+    }
+
+    .About-SmallScreens .container .aboutLeft h2 {
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+
+    .About-SmallScreens .container .aboutLeft p {
+        font-size: 22px;
+        color: rgb(61, 61, 61);
+        margin-bottom: 25px;
+    }
+
+    .About-SmallScreens .container .aboutLeft a {
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #454545;
+        color: #fff;
+    }
+
+    .About-SmallScreens .container .aboutRight {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .About-SmallScreens .container .aboutRight img {
+        width: 690px;
+        height: 500px;
+    }
+
+}
+
+@media only screen and (max-width: 910px) {
+    .About-SmallScreens .container .aboutRight img {
+        width: 600px;
+        height: 540px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .About-SmallScreens .container .aboutRight img {
+        width: 500px;
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+
+    .About-SmallScreens .container {
+        margin-top: 100px;
+    }
+
+    .About-SmallScreens .container .aboutLeft h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    .About-SmallScreens .container .aboutLeft p {
+        font-size: 16px;
+        color: rgb(61, 61, 61);
+        margin-bottom: 25px;
+    }
+
+    .About-SmallScreens .container .aboutLeft a {
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #454545;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .About-SmallScreens .container .aboutRight img {
+        width: 96%;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+
+    .About-SmallScreens .container {
+        margin-top: 100px;
+    }
+
+    .About-SmallScreens .container .aboutLeft h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    .About-SmallScreens .container .aboutLeft p {
+        font-size: 16px;
+        color: rgb(61, 61, 61);
+        margin-bottom: 25px;
+    }
+
+    .About-SmallScreens .container .aboutLeft a {
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #454545;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .About-SmallScreens .container .aboutRight img {
+        width: 96%;
+        height: 240px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+
+    .About-SmallScreens .container {
+        margin-top: 100px;
+    }
+
+    .About-SmallScreens .container .aboutLeft h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    .About-SmallScreens .container .aboutLeft p {
+        font-size: 16px;
+        color: rgb(61, 61, 61);
+        margin-bottom: 25px;
+    }
+
+    .About-SmallScreens .container .aboutLeft a {
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #454545;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .About-SmallScreens .container .aboutRight img {
+        width: 96%;
+        height: 220px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+
+    .About-SmallScreens .container {
+        margin-top: 100px;
+    }
+
+    .About-SmallScreens .container .aboutLeft h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    .About-SmallScreens .container .aboutLeft p {
+        font-size: 16px;
+        color: rgb(61, 61, 61);
+        margin-bottom: 25px;
+    }
+
+    .About-SmallScreens .container .aboutLeft a {
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #454545;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .About-SmallScreens .container .aboutRight img {
+        width: 96%;
+        height: 200px;
+    }
+}
+
+
+/* Beauty Pageant CSS */
+
+.Pageant-mobile {
+    display: none;
+}
+
+.Pageant-910 {
+    display: none;
+}
+
+.Pageant .container {
+    margin-top: 150px;
+}
+
+.Pageant .container .heading {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.Pageant .container .heading h2 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.Pageant .container .heading hr {
+    height: 1.5px;
+    border: 0;
+    background-color: #000;
+    width: 30%;
+    margin: auto;
+}
+
+.Pageant .container .info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.Pageant .container .info .info1 {
+    background-image: url(/Photos/Home-Pageant/Image1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pageant .container .info .info1 .overlay1 {
+    display: none;
+    background-color: rgba(11, 11, 11, 0.625);
+    height: 100%;
+}
+
+.Pageant .container .info .info1 .cont1 {
+    display: none;
+    text-align: center;
+    color: #fff;
+}
+
+.Pageant .container .info .info2 {
+    background-image: url(/Photos/Home-Pageant/Image2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pageant .container .info .info2 .overlay2 {
+    display: none;
+    background-color: rgba(11, 11, 11, 0.625);
+    height: 100%;
+}
+
+.Pageant .container .info .info2 .cont2 {
+    display: none;
+    text-align: center;
+    color: #fff;
+}
+
+.Pageant .container .info .info3 {
+    background-image: url(/Photos/Home-Pageant/Image3.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pageant .container .info .info3 .overlay3 {
+    display: none;
+    background-color: rgba(11, 11, 11, 0.625);
+    height: 100%;
+}
+
+.Pageant .container .info .info3 .cont3 {
+    display: none;
+    text-align: center;
+    color: #fff;
+}
+
+.Pageant .container .pageantButton {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Pageant .container .pageantButton a {
+    text-decoration: none;
+    border: 1px solid #000;
+    padding: 5px 50px;
+    border-radius: 5px;
+    color: #000;
+    font-size: 18px;
+}
+
+.Pageant .container .pageantButton a:hover {
+    background-color: #333333;
+    color: #fff;
+    transition: 0.2s ease;
+}
+
+
+/* .........Pageany section Responsive CSS......... */
+
+@media only screen and (max-width: 910px) {
+
+    /* .Pageant-large {
+        display: none;
+    }
+
+    .Pageant-910 {
+        display: block;
+    }
+
+    .Pageant-mobile {
+        display: none;
+    } */
+
+    .Pageant .container .info .info1 {
+        background-image: url(/Photos/Home-Pageant/Image1.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 45%;
+        height: 540px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Pageant .container .info .info1 .overlay1 {
+        display: none;
+        background-color: rgba(11, 11, 11, 0.625);
+        height: 100%;
+    }
+
+    .Pageant .container .info .info1 .cont1 {
+        display: none;
+        text-align: center;
+        color: #fff;
+    }
+
+    .Pageant .container .info .info2 {
+        background-image: url(/Photos/Home-Pageant/Image2.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 45%;
+        height: 540px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Pageant .container .info .info2 .overlay2 {
+        display: none;
+        background-color: rgba(11, 11, 11, 0.625);
+        height: 100%;
+    }
+
+    .Pageant .container .info .info2 .cont2 {
+        display: none;
+        text-align: center;
+        color: #fff;
+    }
+
+    .Pageant .container .info .info3{
+        display: none;
+    }
+
+    .Pageant .container .pageantButton a {
+        text-decoration: none;
+        color: #ffffff;
+        padding: 5px 50px;
+        border-radius: 5px;
+        background-color: #333333;
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 590px) {
+
+    /* .Pageant-large {
+        display: none;
+    }
+
+    .Pageant-910 {
+        display: none;
+    }
+
+    .Pageant-mobile {
+        display: block;
+    } */
+
+    .Pageant .container {
+        margin-top: 100px;
+    }
+
+    .Pageant .container .heading h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .Pageant .container .heading hr {
+        height: 1.5px;
+        border: 0;
+        background-color: #000;
+        width: 50%;
+        margin: auto;
+    }
+
+    .Pageant .container .info .info1{
+        display: none;
+    }
+
+    .Pageant .container .info .info3{
+        display: none;
+    }
+
+    .Pageant .container .info .info2 {
+        background-image: url(/Photos/Home-Pageant/Image2.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Pageant .container .info .info2 .overlay2 {
+        display: none;
+        background-color: rgba(11, 11, 11, 0.625);
+        height: 100%;
+    }
+
+    .Pageant .container .info .info2 .cont2 {
+        display: none;
+        text-align: center;
+        color: #fff;
+    }
+
+}
+
+@media only screen and (max-width: 390px) {
+
+    /* .Pageant-large {
+        display: none;
+    }
+
+    .Pageant-910 {
+        display: none;
+    }
+
+    .Pageant-mobile {
+        display: block;
+    } */
+
+    .Pageant .container {
+        margin-top: 100px;
+    }
+
+    .Pageant .container .heading h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .Pageant .container .heading hr {
+        height: 1.5px;
+        border: 0;
+        background-color: #000;
+        width: 50%;
+        margin: auto;
+    }
+
+    .Pageant .container .info .info2 {
+        background-image: url(/Photos/Home-Pageant/Image2.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Pageant .container .info .info2 .overlay2 {
+        display: none;
+        background-color: rgba(11, 11, 11, 0.625);
+        height: 100%;
+    }
+
+    .Pageant .container .info .info2 .cont2 {
+        display: none;
+        text-align: center;
+        color: #fff;
+    }
+
+}
+
+@media only screen and (max-width: 340px) {
+
+    /* .Pageant-large {
+        display: none;
+    }
+
+    .Pageant-910 {
+        display: none;
+    }
+
+    .Pageant-mobile {
+        display: block;
+    } */
+
+    .Pageant .container {
+        margin-top: 100px;
+    }
+
+    .Pageant .container .heading h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .Pageant .container .heading hr {
+        height: 1.5px;
+        border: 0;
+        background-color: #000;
+        width: 50%;
+        margin: auto;
+    }
+
+    .Pageant .container .info .info2 {
+        background-image: url(/Photos/Home-Pageant/Image2.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 340px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Pageant .container .info .info2 .overlay2 {
+        display: none;
+        background-color: rgba(11, 11, 11, 0.625);
+        height: 100%;
+    }
+
+    .Pageant .container .info .info2 .cont2 {
+        display: none;
+        text-align: center;
+        color: #fff;
+    }
+
+}

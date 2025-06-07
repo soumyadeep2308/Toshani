@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar-small {
+    display: none;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logoName {
+    margin-left: 4%;
+    width: auto;
+}
+
+.logoName h1 {
+    letter-spacing: 2px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.pages {
+    margin-right: 4%;
+}
+
+.pages ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pages ul li {
+    list-style: none;
+    margin: 0 30px;
+    font-size: 20px;
+    color: rgb(81, 81, 81);
+}
+
+.pages ul li:hover {
+    cursor: pointer;
+    color: #000;
+    transform: scale(1.1);
+    transition: 0.1s ease;
+}
+
+/* .............Navbar For Small Screen CSS............ */
+
+@media only screen and (max-width: 980px) {
+
+    .navbar-large {
+        display: none;
+    }
+
+    .navbar-small {
+        display: block;
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+    }
+
+    .logoName {
+        margin-left: 4%;
+        width: auto;
+    }
+
+    .logoName h1 {
+        letter-spacing: 2px;
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .pages {
+        margin-right: 6%;
+    }
+
+    .pages .menuButtonClose {
+        display: none;
+    }
+
+    .pages .list {
+        width: 20%;
+        display: none;
+        position: absolute;
+        right: 2%;
+        margin-top: 18px;
+    }
+
+    /* .pages ul {
+        display: none;
+    } */
+
+    .pages .list ul {
+        width: 100%;
+        background-color: #f3f3f3;
+    }
+
+    .pages .list ul li {
+        padding: 5px 0 5px 20px;
+        list-style: none;
+        font-size: 24px;
+        color: rgb(56, 56, 56);
+        border-bottom: 1px solid #000;
+        margin: 0;
+    }
+
+    .pages ul li:hover {
+        cursor: pointer;
+        color: #000;
+        transform: scale(1);
+        transition: 0s ease;
+    }
+
+}
+
+@media only screen and (max-width: 670px) {
+    .logoName h1 {
+        letter-spacing: 2px;
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .pages .list {
+        width: 20%;
+        display: none;
+        position: absolute;
+        right: 2%;
+        /* background-color: #f3f3f3; */
+        margin-top: 18px;
+    }
+
+    .pages .list ul {
+        width: 100%;
+        background-color: #f3f3f3;
+    }
+
+    .pages .list ul li {
+        padding: 5px 0 5px 5px;
+        list-style: none;
+        font-size: 18px;
+        color: rgb(56, 56, 56);
+        border-bottom: 1px solid #000;
+    }
+
+    .pages ul li:hover {
+        cursor: pointer;
+        color: #000;
+        transform: scale(1);
+        transition: 0s ease;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .logoName h1 {
+        letter-spacing: 2px;
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .pages .list {
+        width: 20%;
+        display: none;
+        position: absolute;
+        right: 2%;
+        /* background-color: #f3f3f3; */
+        margin-top: 18px;
+    }
+
+    .pages .list ul {
+        width: 100%;
+        background-color: #f3f3f3;
+    }
+
+    .pages .list ul li {
+        padding: 5px 0 5px 5px;
+        list-style: none;
+        font-size: 18px;
+        color: rgb(56, 56, 56);
+        border-bottom: 1px solid #000;
+    }
+
+    .pages ul li:hover {
+        cursor: pointer;
+        color: #000;
+        transform: scale(1);
+        transition: 0s ease;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .logoName h1 {
+        letter-spacing: 2px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .pages .list {
+        width: 20%;
+        display: none;
+        position: absolute;
+        right: 2%;
+        /* background-color: #f3f3f3; */
+        margin-top: 18px;
+    }
+
+    .pages .list ul {
+        width: 100%;
+        background-color: #f3f3f3;
+    }
+
+    .pages .list ul li {
+        padding: 5px 0 5px 5px;
+        list-style: none;
+        font-size: 18px;
+        color: rgb(56, 56, 56);
+        border-bottom: 1px solid #000;
+    }
+
+    .pages ul li:hover {
+        cursor: pointer;
+        color: #000;
+        transform: scale(1);
+        transition: 0s ease;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .logoName h1 {
+        letter-spacing: 2px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .pages .list {
+        width: 20%;
+        display: none;
+        position: absolute;
+        right: 2%;
+        /* background-color: #f3f3f3; */
+        margin-top: 18px;
+    }
+
+    .pages .list ul {
+        width: 100%;
+        background-color: #f3f3f3;
+    }
+
+    .pages .list ul li {
+        padding: 5px 0 5px 5px;
+        list-style: none;
+        font-size: 18px;
+        color: rgb(56, 56, 56);
+        border-bottom: 1px solid #000;
+    }
+
+    .pages ul li:hover {
+        cursor: pointer;
+        color: #000;
+        transform: scale(1);
+        transition: 0s ease;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .logoName h1 {
+        letter-spacing: 2px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .pages .list {
+        width: 20%;
+        display: none;
+        position: absolute;
+        right: 2%;
+        /* background-color: #f3f3f3; */
+        margin-top: 18px;
+    }
+
+    .pages .list ul {
+        width: 100%;
+        background-color: #f3f3f3;
+    }
+
+    .pages .list ul li {
+        padding: 5px 0 5px 5px;
+        list-style: none;
+        font-size: 18px;
+        color: rgb(56, 56, 56);
+        border-bottom: 1px solid #000;
+    }
+
+    .pages ul li:hover {
+        cursor: pointer;
+        color: #000;
+        transform: scale(1);
+        transition: 0s ease;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .logoName h1 {
+        letter-spacing: 2px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .pages .list {
+        width: 20%;
+        display: none;
+        position: absolute;
+        right: 2%;
+        /* background-color: #f3f3f3; */
+        margin-top: 18px;
+    }
+
+    .pages .list ul {
+        width: 100%;
+        background-color: #f3f3f3;
+    }
+
+    .pages .list ul li {
+        padding: 5px 0 5px 5px;
+        list-style: none;
+        font-size: 14px;
+        color: rgb(56, 56, 56);
+        border-bottom: 1px solid #000;
+    }
+
+    .pages ul li:hover {
+        cursor: pointer;
+        color: #000;
+        transform: scale(1);
+        transition: 0s ease;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .logoName h1 {
+        letter-spacing: 2px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .pages .list {
+        width: 20%;
+        display: none;
+        position: absolute;
+        right: 2%;
+        /* background-color: #f3f3f3; */
+        margin-top: 18px;
+    }
+
+    .pages .list ul {
+        width: 100%;
+        background-color: #f3f3f3;
+    }
+
+    .pages .list ul li {
+        padding: 5px 0 5px 5px;
+        list-style: none;
+        font-size: 14px;
+        color: rgb(56, 56, 56);
+        border-bottom: 1px solid #000;
+    }
+
+    .pages ul li:hover {
+        cursor: pointer;
+        color: #000;
+        transform: scale(1);
+        transition: 0s ease;
+    }
+}
