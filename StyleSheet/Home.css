@@ -685,24 +685,6 @@
 
 /* .........Pageany section Responsive CSS......... */
 
-@media (min-width: 911px) and (max-width: 1420px){
-
-    .Pageant .container .pageantButton a {
-        text-decoration: none;
-        border: 1px solid #333333;
-        padding: 5px 50px;
-        border-radius: 5px;
-        color: #f6f6f6;
-        font-size: 18px;
-    }
-
-    .Pageant .container .pageantButton a:hover {
-        background-color: #333333;
-        color: #f6f6f6;
-        transition: 0s ease;
-    }
-}
-
 @media only screen and (max-width: 910px) {
 
     /* .Pageant-large {
