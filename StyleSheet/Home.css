@@ -638,7 +638,7 @@
 }
 
 .Pageant .container .info .info3 {
-    background-image: url(/./Photos/Home-Pageant/Image3.jpeg);
+    background-image: url(..Image3.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
