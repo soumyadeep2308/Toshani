@@ -685,6 +685,23 @@
 
 /* .........Pageany section Responsive CSS......... */
 
+@media only screen and (max-width: 1424px){
+    .Pageant .container .pageantButton a {
+        text-decoration: none;
+        border: 1px solid #333333;
+        padding: 5px 50px;
+        border-radius: 5px;
+        color: #f6f6f6;
+        font-size: 18px;
+    }
+
+    .Pageant .container .pageantButton a:hover {
+        background-color: #333333;
+        color: #f6f6f6;
+        transition: 0s ease;
+    }
+}
+
 @media only screen and (max-width: 910px) {
 
     /* .Pageant-large {
@@ -747,17 +764,23 @@
         color: #fff;
     }
 
-    .Pageant .container .info .info3{
+    .Pageant .container .info .info3 {
         display: none;
     }
 
     .Pageant .container .pageantButton a {
         text-decoration: none;
-        color: #ffffff;
+        border: 1px solid #333333;
         padding: 5px 50px;
         border-radius: 5px;
-        background-color: #333333;
+        color: #f6f6f6;
         font-size: 18px;
+    }
+
+    .Pageant .container .pageantButton a:hover {
+        background-color: #333333;
+        color: #f6f6f6;
+        transition: 0s ease;
     }
 
 }
@@ -794,11 +817,11 @@
         margin: auto;
     }
 
-    .Pageant .container .info .info1{
+    .Pageant .container .info .info1 {
         display: none;
     }
 
-    .Pageant .container .info .info3{
+    .Pageant .container .info .info3 {
         display: none;
     }
 
@@ -824,6 +847,21 @@
         display: none;
         text-align: center;
         color: #fff;
+    }
+
+    .Pageant .container .pageantButton a {
+        text-decoration: none;
+        border: 1px solid #333333;
+        padding: 5px 50px;
+        border-radius: 5px;
+        color: #f6f6f6;
+        font-size: 18px;
+    }
+
+    .Pageant .container .pageantButton a:hover {
+        background-color: #333333;
+        color: #f6f6f6;
+        transition: 0s ease;
     }
 
 }
@@ -884,6 +922,21 @@
         color: #fff;
     }
 
+    .Pageant .container .pageantButton a {
+        text-decoration: none;
+        border: 1px solid #333333;
+        padding: 5px 50px;
+        border-radius: 5px;
+        color: #f6f6f6;
+        font-size: 18px;
+    }
+
+    .Pageant .container .pageantButton a:hover {
+        background-color: #333333;
+        color: #f6f6f6;
+        transition: 0s ease;
+    }
+
 }
 
 @media only screen and (max-width: 340px) {
@@ -940,6 +993,21 @@
         display: none;
         text-align: center;
         color: #fff;
+    }
+
+    .Pageant .container .pageantButton a {
+        text-decoration: none;
+        border: 1px solid #333333;
+        padding: 5px 50px;
+        border-radius: 5px;
+        color: #f6f6f6;
+        font-size: 18px;
+    }
+
+    .Pageant .container .pageantButton a:hover {
+        background-color: #333333;
+        color: #f6f6f6;
+        transition: 0s ease;
     }
 
 }

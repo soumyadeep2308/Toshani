@@ -133,17 +133,17 @@ media1201.addEventListener('change', (event) => {
 
 // Pagent More Button Style Relative To Screen Size
 
-const PagentButton = window.matchMedia('(max-width: 1424px)');
+// const PagentButton = window.matchMedia('(max-width: 1424px)');
 
-if(PagentButton.matches){
-  document.querySelector('.morePageant').style.color = '#fff';
-}
+// if(PagentButton.matches){
+//   document.querySelector('.morePageant').style.color = '#fff';
+// }
 
-PagentButton.addEventListener('change', (event)=>{
-  if(event.matches){
-    document.querySelector('.morePageant').style.color = '#fff';
-  }
-})
+// PagentButton.addEventListener('change', (event)=>{
+//   if(event.matches){
+//     document.querySelector('.morePageant').style.color = '#fff';
+//   }
+// })
 
 
 
