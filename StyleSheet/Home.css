@@ -590,7 +590,7 @@
 }
 
 .Pageant .container .info .info1 {
-    background-image: url(/.Photos/Home-Pageant/Image1.jpeg);
+    background-image: url(../Photos/Home-Pageant/Image1.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -614,7 +614,7 @@
 }
 
 .Pageant .container .info .info2 {
-    background-image: url(/.Photos/Home-Pageant/Image2.jpeg);
+    background-image: url(/./Photos/Home-Pageant/Image2.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
