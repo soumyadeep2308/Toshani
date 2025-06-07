@@ -685,7 +685,7 @@
 
 /* .........Pageany section Responsive CSS......... */
 
-@media only screen and (max-width: 1420px){
+@media (min-width: 911px) and (max-width: 1420px){
 
     .Pageant .container .pageantButton a {
         text-decoration: none;
