@@ -22,6 +22,10 @@ body {
     padding: 15px 0;
 }
 
+.navbar a{
+    text-decoration: none;
+}
+
 .logoName {
     margin-left: 4%;
     width: auto;
@@ -31,6 +35,7 @@ body {
     letter-spacing: 2px;
     font-size: 32px;
     font-weight: 600;
+    color: #000;
 }
 
 .pages {
