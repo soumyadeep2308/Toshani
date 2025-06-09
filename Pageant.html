@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toshani-Pageant</title>
+
+    <!-- Navbar StyleSheet Link -->
+    <link rel="stylesheet" href="StyleSheet/Navbar.css">
+
+    <!-- Home Page StyleSheet Link -->
+    <link rel="stylesheet" href="StyleSheet/Home.css">
+
+    <!-- Pageant StyleSheet Link -->
+    <link rel="stylesheet" href="StyleSheet/Pageant.css">
+
+    <!-- Footer StyleSheet Link -->
+    <link rel="stylesheet" href="StyleSheet/Footer.css">
+
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+
+</head>
+<body>
+
+    <header class="navbar-small">
+
+        <div class="navbar">
+            <div class="logoName">
+                <a href="index.html"><h1>TOSHANI CHATTERJEE</h1></a>
+            </div>
+            <div class="pages">
+                <div class="menu">
+
+                    <div class="menuButtonOpen" onclick="openFunction()"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z" />
+                        </svg></div>
+
+                    <div class="menuButtonClose" onclick="closeFunction()"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="28" height="28" viewBox="0 0 16 16">
+                            <path fill="currentColor"
+                                d="M15.1 3.1L12.9.9L8 5.9L3.1.9L.9 3.1l5 4.9l-5 4.9l2.2 2.2l4.9-5l4.9 5l2.2-2.2l-5-4.9z" />
+                        </svg></div>
+
+                    <div class="list">
+                        <ul class="items">
+                            <a href="About.html">
+                                <li>About</li>
+                            </a>
+                            <a href="Gallery.html">
+                                <li>Gallery</li>
+                            </a>
+                            <a href="Pageant.html">
+                                <li>Pageant</li>
+                            </a>
+                            <a href="#">
+                                <li>Contact</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <header class="navbar-large">
+
+        <div class="navbar">
+            <div class="logoName">
+                <a href="index.html"><h1>TOSHANI CHATTERJEE</h1></a>
+            </div>
+            <div class="pages">
+                <ul>
+                    <a href="About.html">
+                        <li>About</li>
+                    </a>
+                    <a href="Gallery.html">
+                        <li>Gallery</li>
+                    </a>
+                    <a href="Pageant.html">
+                        <li>Pageant</li>
+                    </a>
+                    <a href="#">
+                        <li style="margin-right: 0;">Contact</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="pageantBody">
+
+        <div class="container">
+
+            <div class="pageantHeading">
+
+                <h1>BEAUTY PAGEANTS</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, nulla.</p>
+
+            </div>
+
+            <div class="pageantContent">
+
+                <div class="pageant1">
+
+                    <div class="pInfo">
+                        <h2>Pageant1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quasi aliquam, repellendus qui facere veniam aut optio nihil alias maiores recusandae ratione inventore quam sint minus repellat, culpa, officiis consequatur!</p>
+                        <p>Date: xx/xx/xxx</p>
+                        <p>Place: Kolkata</p>
+
+                        <div class="moreImages">
+
+                            <div class="I1" onclick="document.getElementById('P1-I').src = 'Photos/Pageant/Image2.jpeg' ">
+                                <img src="Photos/Pageant/Image2.jpeg" alt="">
+                            </div>
+                            <div class="I2" onclick="document.getElementById('P1-I').src = 'Photos/Pageant/Image1.jpeg' ">
+                                <img src="Photos/Pageant/Image1.jpeg" alt="">
+                            </div>
+                            <div class="I3" onclick="document.getElementById('P1-I').src = 'Photos/Pageant/Image3.jpeg' ">
+                                <img src="Photos/Pageant/Image3.jpeg" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="pImage">
+                        <img src="Photos/Pageant/Image2.jpeg" alt="Pageant-Image" id="P1-I">
+                    </div>
+
+                </div>
+
+                <!-- Pageant 2 For Small Sceens -->
+
+                <div class="pageant2 pageant2-small">
+
+                    <div class="pInfo">
+                        <h2>Pageant2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quasi aliquam, repellendus qui facere veniam aut optio nihil alias maiores recusandae ratione inventore quam sint minus repellat, culpa, officiis consequatur!</p>
+                        <p>Date: xx/xx/xxx</p>
+                        <p>Place: Kolkata</p>
+
+                        <div class="moreImages">
+
+                            <div class="I1" onclick="document.getElementById('P2-I').src = 'Photos/Pageant/Image1.jpeg' ">
+                                <img src="Photos/Pageant/Image1.jpeg" alt="">
+                            </div>
+                            <div class="I2" onclick="document.getElementById('P2-I').src = 'Photos/Pageant/Image2.jpeg' ">
+                                <img src="Photos/Pageant/Image2.jpeg" alt="">
+                            </div>
+                            <div class="I3" onclick="document.getElementById('P2-I').src = 'Photos/Pageant/Image3.jpeg' ">
+                                <img src="Photos/Pageant/Image3.jpeg" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="pImage">
+                        <img src="Photos/Pageant/Image1.jpeg" alt="Pageant-Image" id="P2-I">
+                    </div>
+
+                </div>
+
+                <div class="pageant2 pageant2-large">
+
+                    <div class="pImage">
+                        <img src="Photos/Pageant/Image1.jpeg" alt="Pageant-Image" id="P2-I">
+                    </div>
+
+                    <div class="pInfo">
+                        <h2>Pageant2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quasi aliquam, repellendus qui facere veniam aut optio nihil alias maiores recusandae ratione inventore quam sint minus repellat, culpa, officiis consequatur!</p>
+                        <p>Date: xx/xx/xxx</p>
+                        <p>Place: Kolkata</p>
+
+                        <div class="moreImages">
+
+                            <div class="I1" onclick="document.getElementById('P2-I').src = 'Photos/Pageant/Image1.jpeg' ">
+                                <img src="Photos/Pageant/Image1.jpeg" alt="">
+                            </div>
+                            <div class="I2" onclick="document.getElementById('P2-I').src = 'Photos/Pageant/Image2.jpeg' ">
+                                <img src="Photos/Pageant/Image2.jpeg" alt="">
+                            </div>
+                            <div class="I3" onclick="document.getElementById('P2-I').src = 'Photos/Pageant/Image3.jpeg' ">
+                                <img src="Photos/Pageant/Image3.jpeg" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="pageant3">
+
+                    <div class="pInfo">
+                        <h2>Pageant3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quasi aliquam, repellendus qui facere veniam aut optio nihil alias maiores recusandae ratione inventore quam sint minus repellat, culpa, officiis consequatur!</p>
+                        <p>Date: xx/xx/xxx</p>
+                        <p>Place: Kolkata</p>
+
+                        <div class="moreImages">
+
+                            <div class="I1" onclick="document.getElementById('P3-I').src = 'Photos/Pageant/Image3.jpeg' ">
+                                <img src="Photos/Pageant/Image3.jpeg" alt="">
+                            </div>
+                            <div class="I2" onclick="document.getElementById('P3-I').src = 'Photos/Pageant/Image1.jpeg' ">
+                                <img src="Photos/Pageant/Image1.jpeg" alt="">
+                            </div>
+                            <div class="I3" onclick="document.getElementById('P3-I').src = 'Photos/Pageant/Image2.jpeg' ">
+                                <img src="Photos/Pageant/Image2.jpeg" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="pImage">
+                        <img src="Photos/Pageant/Image3.jpeg" alt="Pageant-Image" id="P3-I">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <h1>TOSHANI CHATTERJEE</h1>
+        <div class="socialIcons">
+            <a href=""><span class="line-md--facebook"></span></a>
+            <a href=""><span class="basil--instagram-solid"></span></a>
+            <a href=""><span class="iconoir--youtube-solid"></span></a>
+        </div>
+        <p>Toshani Chatterjee &copy Website Deeloped By <span style="text-decoration: underline;">Soumyadeep Das</span>
+        </p>
+
+    </footer>
+
+    <!-- Navbar JS -->
+    <script src="/JavaScript/Navbar.js"></script>
+
+    <!-- Pageant JS -->
+    <script src="/JavaScript/Pageant.js"></script>
+    
+</body>
+</html>
